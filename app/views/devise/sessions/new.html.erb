@@ -5,7 +5,10 @@
     <%= f.label :email %><br />
     <%= f.email_field :email, autofocus: true %>
   </div>
-
+  <div>
+    <%= f.label :username %><br />
+    <%= f.text_field :username %>
+  </div>
   <div class="field">
     <%= f.label :password %><br />
     <%= f.password_field :password, autocomplete: "off" %>
