@@ -12,5 +12,7 @@
 //
 //= require jquery
 //= require jquery_ujs
+//= require bootstrap
+//= require hierapolis
 //= require turbolinks
 //= require_tree .
